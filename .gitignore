@@ -1,0 +1,11 @@
+*.asv
+*.mp4
+*.mat
+*.DS_Store
+*.png
+*.fig
+data/**
+results/**
+*.h5
+*.pdf
+*.zip

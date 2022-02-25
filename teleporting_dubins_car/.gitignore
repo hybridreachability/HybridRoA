@@ -1,0 +1,8 @@
+*.asv
+*.mp4
+*.mat
+*.DS_Store
+*.png
+*.fig
+data/**
+*.h5
