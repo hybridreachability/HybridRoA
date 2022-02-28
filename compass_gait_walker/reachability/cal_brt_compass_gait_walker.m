@@ -66,8 +66,6 @@ else
     grid_min = [-0.52; -1.04; -4.0; -8.0];
     grid_max = [0.52; 1.04; 4.0; 8.0];    
     N = [41; 81; 81; 81];
-    N = [11; 21; 21; 21];
-
     grid = createGrid(grid_min, grid_max, N);
     save(grid_file_str, 'grid', '-v7.3');
 end

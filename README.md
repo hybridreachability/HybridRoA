@@ -32,7 +32,7 @@ The following python packages are required to set up the target functions for th
   - **[Rimless Wheel](/rimless_wheel)**
   
   ![Rimless Wheel](/multimedia/demo-rimless-wheel.png)
-   Description: Regions of Attraction (RoA) for the rimless wheel (left)'s limit cycle (black). (Center) The true RoA is shown in light pink. RoA obtained using SOS programming is shown in purple. The figure is reproduced from [Manchester et al., Regions of attraction for hybrid limit cycles of walking robots](https://arxiv.org/pdf/1010.2247.pdf). (Right) RoA computed using our approach. The proposed approach is able to recover the entire RoA.
+   Description: Regions of Attraction (RoA) for the rimless wheel limit cycle (black). (Left and center reproduced from [Manchester et al., Regions of attraction for hybrid limit cycles of walking robots](https://arxiv.org/pdf/1010.2247.pdf).) (Left) Configuration of the rimless wheel system. (Center) The true RoA is shown in light pink. RoA obtained using SOS programming is shown in purple. (Right) RoA computed using our approach. The proposed approach is able to recover the entire RoA.
   - **[Teleporting Dubins Car](/teleporting_dubins_car)**
   
   ![Teleporting Dubins Car](/multimedia/demo-teleporting-dubins-car.gif)
