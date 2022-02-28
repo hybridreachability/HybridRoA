@@ -1,6 +1,8 @@
+![Main Thumbnail](/multimedia/main_banner.png)
+
 # HybridRoA
 
-- Source code for J. Choi, A. Agrawal, K. Sreenath, C. J. Tomlin, and S. Bansal, ["Computation of RoAs for Hybrid Limit Cycles Using Reachability: An Application to Walking Robots"](https://arxiv.org/pdf/2201.08538.pdf) [[Project Hompage](https://hybridreachability.github.io/website-hybrid-roa/)]
+- Source code for J. Choi, A. Agrawal, K. Sreenath, C. J. Tomlin, and S. Bansal, ["Computation of Regions of Attraction for Hybrid Limit Cycles Using Reachability: An Application to Walking Robots"](https://arxiv.org/pdf/2201.08538.pdf) **[[Project Hompage](https://hybridreachability.github.io/website-hybrid-roa/)]**
 
 - Contributors: [Jason Choi](https://jay-choi.me/), [Ayush Agrawal](https://www.linkedin.com/in/ayushagrawal1/), [Somil Bansal](https://smlbansal.github.io/)
 
@@ -27,6 +29,14 @@ The following python packages are required to set up the target functions for th
 - Computing the value functions for the BRTs take some time. If you just want to play around with the optimal controllers, you can download the **precomputed value functions [here](https://drive.google.com/drive/folders/1xlu5wDWFpEuowMRS4W2vOJWn6iHFQN0a?usp=sharing)**.
 
 - More explanations are provided in the directories for each example:
-  - [Rimless Wheel](/rimless_wheel)
-  - [Teleporting Dubins Car](/teleporting_dubins_car)
-  - [Compass Gait Walker](/compass_gait_walker) 
+  - **[Rimless Wheel](/rimless_wheel)**
+  
+  ![Rimless Wheel](/multimedia/demo-rimless-wheel.png)
+   Description: Regions of Attraction (RoA) for the rimless wheel (left)'s limit cycle (black). (Center) The true RoA is shown in light pink. RoA obtained using SOS programming is shown in purple. The figure is reproduced from [Manchester et al., Regions of attraction for hybrid limit cycles of walking robots](https://arxiv.org/pdf/1010.2247.pdf). (Right) RoA computed using our approach. The proposed approach is able to recover the entire RoA.
+  - **[Teleporting Dubins Car](/teleporting_dubins_car)**
+  
+  ![Teleporting Dubins Car](/multimedia/demo-teleporting-dubins-car.gif)
+  
+  - **[Compass Gait Walker](/compass_gait_walker)**
+  
+  ![Compass Gait Walker](/multimedia/demo-compass-gait.gif)
